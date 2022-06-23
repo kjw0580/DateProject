@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+html{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif;}
+#mainContainer{margin: 0; padding: 0; width: 100%; height: 100%;}
+
+/* header 영역 */
+header{width: 100%; height: 80px; background: #FD6A80;}
+.logo{float: left; width: 20%; height: 100%;margin-left: 50px; box-sizing: border-box;}
+.logo p a{font-size: 3em; text-align:left; color: #fff; text-decoration: none;}
+.matAlarm {height: 100%; width: 40%; overflow: hidden; position: relative; float: left;}
+.matAlarm div {display: block; width: 200%; height: 100%; line-height: 80px; position: absolute; 
+    overflow: hidden; animation: matAlarm 7s linear infinite;}
+.matAlarm span {float: left; width: 50%; color: white}
+@keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
+.login{width: 30%; height: 100%; float: right;}
+.login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
