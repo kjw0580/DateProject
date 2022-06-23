@@ -12,5 +12,23 @@ header{width: 100%; height: 80px; background: #FD6A80;}
     overflow: hidden; animation: matAlarm 7s linear infinite;}
 .matAlarm span {float: left; width: 50%; color: white}
 @keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
-.login{width: 30%; height: 100%; float: right;}
+.login{width: 30%; height: 100%; float: right; overflow: hidden;}
 .login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
+
+/* section 영역 */
+section{height: 1200px; width: 100%;}
+section .row{height: 1000px; margin: 10px 0px;}
+section .maindiv{border-right: 2px solid #ddd; height:100%; box-sizing: border-box;}
+section .maindiv:last-child{border:none}
+
+/* left */
+section .searchBox{border-radius: 20px; border: none; background: #eee; text-align: left; width: 100%; height: 40px;}
+section .searchBtn{position: relative; top:-30px; left: 85%; width: 40px; border: none; background: none;}
+section .chatlistbox {list-style: none; margin-top: 20px; width: 100%; padding: 0;}
+section .chatlistbox a{text-decoration: none;}
+section .chatlistbox li{border: none; border-radius: 20px; box-sizing: border-box; height: 120px; padding: 20px; }
+section .chatlistbox li:hover{background: #eee; border-radius: 0px;}
+section .chatlistbox img{width: 80px; height: 80px; border-radius: 20px; float: left; margin-right:20px;}
+section .chatlistbox b{color: black;}
+section .chatlistbox .threeDot{float: right; color: #FD6A80;}
+section .chatlistbox p{color: black; margin: 30px 0px 0px 0px; overflow: hidden; height: 20px;}
